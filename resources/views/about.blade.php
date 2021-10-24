@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <a href="{{route('home.index')}}">首頁</a>
+        <a href="{{route('news.index')}}">最新消息</a>
+
         <title>Laravel</title>
 
         <!-- Fonts -->
