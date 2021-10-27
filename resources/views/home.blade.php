@@ -7,7 +7,7 @@
         <a href="{{route('about.index')}}">關於本站</a>
         <a href="{{route('news.index')}}">最新消息</a>
 
-        <title>Laravel</title>
+        <title>首頁</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">

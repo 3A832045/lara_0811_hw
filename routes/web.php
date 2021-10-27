@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,13 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/home', function () {
+Route::get('home',[HomeController::class,'index'])->name('home.index');
+
+Route::get('about',[\App\Http\Controllers\AboutController::class,'index'])->name('about.index');
+
+Route::get('news',[\App\Http\Controllers\NewsController::class,'index'])->name('news.index');
+
+/*Route::get('/home', function () {
     return view('home');
 })->name('home.index');
 
@@ -27,5 +34,5 @@ Route::get('/about', function () {
 
 Route::get('/news', function () {
     return view('news');
-})->name('news.index');
+})->name('news.index');*/
 
