@@ -4,9 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <a href="{{route('home.index')}}">首頁</a>
-        <a href="{{route('news.index')}}">最新消息</a>
-
         <title>關於本站</title>
 
         <!-- Fonts -->
@@ -60,6 +57,8 @@
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
+                                <a href="{{route('home.index')}}">首頁</a>
+                                <a href="{{route('news.index')}}">最新消息</a>
                             </div>
                         </div>
 
